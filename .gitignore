@@ -1,15 +1,59 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+# Created by Studio
+
+### Android ###
+# Built application files
+*.apk
+*.aab
+*.ap_
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Built C/C++ libraries
+*.so
+
+# Android Studio Navigation editor files
+nav_editor_asset_keys.xml
+
+# Android Studio captures folder
+/captures/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Output folder
+/build/
+
+# Generated files
+.idea/
+.gradle/
+local.properties
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
+
+# Gradle
+.gradle
+build/
+
+# Local configuration
 local.properties
+
+# Log files
+*.log
+
+# Heap dump files
+*.hprof
+
+# IDE files
+*.iml
+
+# Misc
+captures/
+
+# Ignorar archivos temporales del agente de IA
+*.bin
+*.lock

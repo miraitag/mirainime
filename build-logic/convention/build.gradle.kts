@@ -13,5 +13,9 @@ gradlePlugin {
             id = "mirainime.android.application"
             implementationClass = "AndroidApplicationConventionPlugin"
         }
+        register("firebase") {
+            id = "mirainime.android.firebase"
+            implementationClass = "AndroidFirebaseConventionPlugin"
+        }
     }
 }

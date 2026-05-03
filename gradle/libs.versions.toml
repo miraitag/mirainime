@@ -4,6 +4,9 @@ agp = "9.2.0"
 composeBom = "2026.04.01"
 coreKtx = "1.18.0"
 espressoCore = "3.7.0"
+firebase="34.12.0"
+firebaseCrashlytics = "3.0.7"
+googleSerice = "4.4.4"
 hilt = "2.59.2"
 hiltNavigationCompose = "1.3.0"
 junit = "4.13.2"
@@ -44,9 +47,16 @@ hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref
 # Hilt para módulos sin android
 hilt-core = { group = "com.google.dagger", name = "hilt-core", version.ref = "hilt" }
 
+# Firebase
+firebase-bom = { group = "com.google.firebase", name="firebase-bom", version.ref="firebase"}
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth" }
+firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics" }
 
 [plugins]
+google-services = {id = "com.google.gms.google-services", version.ref="googleSerice"}
 android-application = { id = "com.android.application", version.ref = "agp" }
 dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "firebaseCrashlytics" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
