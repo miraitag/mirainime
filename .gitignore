@@ -61,3 +61,4 @@ local.properties
 **/kotlin-dsl-cache/
 **/*.kt.cache
 **/*.class
+**/*.jar
