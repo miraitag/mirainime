@@ -2,6 +2,7 @@ plugins {
     id("mirainime.android.application")
     id("mirainime.android.firebase")
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.google.services)
 }
 
 /*android {

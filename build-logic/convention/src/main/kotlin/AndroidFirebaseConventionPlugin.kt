@@ -14,8 +14,11 @@ class AndroidFirebaseConventionPlugin : Plugin<Project> {
             dependencies {
                 add("implementation", platform(libs.findLibrary("firebase-bom").get()))
                 add("implementation", libs.findLibrary("firebase-analytics").get())
-                add("implementation", libs.findLibrary("firebase-auth").get())
                 add("implementation", libs.findLibrary("firebase-crashlytics").get())
+                add("implementation", libs.findLibrary("firebase-auth").get())
+                add("implementation", libs.findLibrary("androidx-credentials").get())
+                add("implementation", libs.findLibrary("androidx-credentials-play-services-auth").get())
+                add("implementation", libs.findLibrary("googleid").get())
             }
         }
     }

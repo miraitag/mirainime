@@ -1,10 +1,10 @@
 [versions]
 activityCompose = "1.13.0"
-agp = "9.2.0"
-composeBom = "2026.04.01"
+agp = "9.2.1"
+composeBom = "2026.05.00"
 coreKtx = "1.18.0"
 espressoCore = "3.7.0"
-firebase="34.12.0"
+firebase="34.13.0"
 firebaseCrashlytics = "3.0.7"
 googleSerice = "4.4.4"
 hilt = "2.59.2"
@@ -14,6 +14,9 @@ junitVersion = "1.3.0"
 kotlin = "2.3.21"
 ksp = "2.3.6"
 lifecycleRuntimeKtx = "2.10.0"
+credentials = "1.6.0"
+credentialsPlayServicesAuth = "1.6.0"
+googleid = "1.2.0"
 
 [libraries]
 # Android & Kotlin
@@ -52,6 +55,9 @@ firebase-bom = { group = "com.google.firebase", name="firebase-bom", version.ref
 firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics" }
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth" }
 firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics" }
+androidx-credentials = { group = "androidx.credentials", name = "credentials", version.ref = "credentials" }
+androidx-credentials-play-services-auth = { group = "androidx.credentials", name = "credentials-play-services-auth", version.ref = "credentialsPlayServicesAuth" }
+googleid = { group = "com.google.android.libraries.identity.googleid", name = "googleid", version.ref = "googleid" }
 
 [plugins]
 google-services = {id = "com.google.gms.google-services", version.ref="googleSerice"}
