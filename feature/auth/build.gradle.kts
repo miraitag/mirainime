@@ -4,6 +4,9 @@ plugins {
 
 android {
     namespace = "com.miraitag.mirainime.feature.auth"
+    compileSdk {
+        version = release(36)
+    }
 }
 
 dependencies {

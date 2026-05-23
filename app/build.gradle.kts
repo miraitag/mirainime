@@ -5,11 +5,14 @@ plugins {
     alias(libs.plugins.google.services)
 }
 
-/*android {
+android {
     buildFeatures {
         compose = true
     }
-}*/
+    compileSdk {
+        version = release(36)
+    }
+}
 
 dependencies {
     // Compose
