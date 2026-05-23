@@ -11,6 +11,7 @@ class AndroidApplicationConventionPlugin : Plugin<Project> {
                 apply("com.android.application")
             }
             extensions.configure<ApplicationExtension> {
+                namespace = "com.miraitag.mirainime"
                 configureKotlinAndroid(this)
                 buildFeatures {
                     compose = true

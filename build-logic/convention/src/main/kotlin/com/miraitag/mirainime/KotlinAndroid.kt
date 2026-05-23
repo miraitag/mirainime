@@ -12,7 +12,6 @@ internal fun Project.configureKotlinAndroid(
     commonExtension: CommonExtension
 ) {
     commonExtension.apply {
-        namespace = "com.miraitag.mirainime"
         compileSdk {
             version = release(36) {
                 minorApiLevel = 1
