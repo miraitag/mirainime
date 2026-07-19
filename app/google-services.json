@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "411106976760",
-    "project_id": "mirainime-6260b",
-    "storage_bucket": "mirainime-6260b.firebasestorage.app"
+    "project_number": "971221016620",
+    "project_id": "mirainime-20260718",
+    "storage_bucket": "mirainime-20260718.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:411106976760:android:4eedd561b910b9fd216c0d",
+        "mobilesdk_app_id": "1:971221016620:android:e6d02206c27c5ea198f189",
         "android_client_info": {
           "package_name": "com.miraitag.mirainime"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAk-HZNwdS5xRrvdQS-SGBo6seApLMCOK0"
+          "current_key": "AIzaSyDApKn1f9KB8Z5izaIGMrSPsAdlYiDwQAQ"
         }
       ],
       "services": {
